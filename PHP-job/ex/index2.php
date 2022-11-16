@@ -1,20 +1,5 @@
 <?php
-// 例として、血液型を診断する条件分岐
-$blood = 'C';
-switch ($blood){
-    case'A';
-     print'A型です';
-     break;
-     case'B';
-     print'B型です';
-     break;
-     case'O';
-     print'O型です';
-     break;
-     case'AB';
-     print'AB型です';
-     break;
-default:
-  echo "A/B/O/ABから選択してください";
-}
+$name = "kent";
+
+echo ($name != "") ? '名前を受け付けました' : '名前を入力してください';
 ?>
