@@ -1,6 +1,6 @@
 <?php
 // 例として、血液型を診断する条件分岐
-$blood = 'O';
+$blood = 'C';
 switch ($blood){
     case'A';
      print'A型です';
