@@ -1,12 +1,15 @@
 <?php
-// 年齢
-$age = 24;
-// 学生かどうか
-$is_student = false;
-
-if ($age < 25 && $is_student) {
-    echo '学割パックが使えるよ';
-} elseif ($age < 25) {
-    echo '若者応援割引が使えるよ';
+// 例として、血液型を診断する条件分岐
+$blood = 'B';
+if($blood == 'A') {
+  echo "A型です";
+} elseif($blood == 'B') {
+  echo "B型です";
+} elseif($blood == 'O') {
+  echo "O型です";
+} elseif($blood == 'AB') {
+  echo "AB型です";
+ } else {
+  echo "A/B/O/ABから選択してください";
 }
 ?>
