@@ -1,15 +1,20 @@
 <?php
 // 例として、血液型を診断する条件分岐
-$blood = 'D';
-if($blood == 'A') {
-  echo "A型です";
-} elseif($blood == 'B') {
-  echo "B型です";
-} elseif($blood == 'O') {
-  echo "O型です";
-} elseif($blood == 'AB') {
-  echo "AB型です";
- } else {
+$blood = 'B';
+switch ($blood){
+    case'A';
+     print'A型です';
+     break;
+     case'B';
+     print'B型です';
+     break;
+     case'O';
+     print'O型です';
+     break;
+     case'AB';
+     print'AB型です';
+     break;
+default:
   echo "A/B/O/ABから選択してください";
 }
 ?>
