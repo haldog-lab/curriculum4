@@ -1,6 +1,6 @@
 <?php
 // 年齢
-$age = 24;
+$age = 25;
 // 学生かどうか
 $is_student = true;
 
