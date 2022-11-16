@@ -1,6 +1,6 @@
 <?php
 // 例として、血液型を診断する条件分岐
-$blood = 'B';
+$blood = 'D';
 if($blood == 'A') {
   echo "A型です";
 } elseif($blood == 'B') {
