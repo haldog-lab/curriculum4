@@ -1,5 +1,8 @@
 <?php
-$name = "";
+$name = "taro";
+$pw = "pass";
 
-echo ($name != "") ? '名前を受け付けました' : '名前を入力してください';
+if ($name && $pw) {
+    echo 'ログイン成功です '
+}
 ?>
