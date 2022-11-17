@@ -1,7 +1,7 @@
 <?php
 $num = 0; 
-while($num < 10) {
+do {
     echo $num;
-    $num++;
-}
+    $num++; 
+} while($num < 10);
 ?>
