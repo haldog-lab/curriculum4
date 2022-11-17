@@ -1,5 +1,5 @@
 <?php
-$name = "taro";
+$name = "tao";
 $pw = "ps";
 
 if ($name == "taro" && $pw == "pass") {
