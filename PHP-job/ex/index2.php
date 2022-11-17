@@ -2,7 +2,7 @@
 $name = "taro";
 $pw = "ss";
 
-if ($name && $pw) {
+if ($name = true && $pw = true) {
     echo 'ログイン成功です ';
 }
 elseif ($name = false && $pw = true){
