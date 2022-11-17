@@ -1,6 +1,6 @@
 <?php
 $name = "taro";
-$pw = "ss";
+$pw = "pass";
 
 if ($name = true && $pw = true) {
     echo 'ログイン成功です ';
