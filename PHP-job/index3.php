@@ -1,9 +1,9 @@
 <?php
 $num = 0;
-while($num < 10) {
+while($num < 101) {
     echo $num;
     $num++;
-    if($num == 5) {
+    if($num == 101) {
         break;
     }
 }
