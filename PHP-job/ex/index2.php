@@ -1,17 +1,17 @@
 <?php
-$name = "taro";
-$pw = "pass";
+$name = "";
+$pw = "pas";
 
-if ($name = true && $pw = true) {
+if ($name = "taro" && $pw = "pass") {
     echo 'ログイン成功です ';
 }
-elseif ($name = false && $pw = true){
+elseif ($name != "taro" && $$pw = "pass"){
     echo '名前が間違っています';
 }
-elseif ($name = true && $pw = false){
+elseif ($$name = "taro" && $pw != "pass"){
     echo 'パスワードが間違っています';
 }
-elseif ($name = false && $pw = false){
+elseif ($name != "taro" && $pw != "pass"){
     echo '入力情報が間違っています。';
 }
 
