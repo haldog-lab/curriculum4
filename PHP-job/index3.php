@@ -1,10 +1,7 @@
 <?php
-$colors = ["red" => "赤", "blue" => "青", "green" => "緑"];
-var_dump($colors);
-echo '<br>';
-$colors = ["red" => "赤", "blue" => "青", "green" => "緑","yellow" => "黄色"];
-var_dump($colors);
+$fruits = ["りんご", "みかん", "もも"];
 
-
-
+echo $fruits[0];
+echo $fruits[1];
+echo $fruits[2];
 ?>
