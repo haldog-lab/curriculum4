@@ -1,6 +1,6 @@
 <?php
 $fruits = ["apple" => "りんご", "orange" => "みかん", "grape" => "ぶどう"];
-$fruits["peach"] = "もも";
+$fruits[] = "もも";
 // りんごを出力
 echo $fruits["apple"];
 // みかんを出力
