@@ -9,5 +9,5 @@ echo $fruits["orange"];
 echo $fruits["grape"];
 echo $fruits["peach"];
 
-var_dump($fruits);
+
 ?>
