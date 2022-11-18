@@ -11,6 +11,6 @@ var_dump($colors);
 echo $colors["red"];
 echo $colors["blue"];
 echo $colors["green"];
-
+echo $colors["yellow"];
 
 ?>
