@@ -1,6 +1,5 @@
 <?php
-$colors = ["red" => "赤", "blue" => "青", "green" => "緑"];
-$colors = ["yellow" => "黄色"];
+$colors = ["red" => "赤", "blue" => "青", "green" => "緑","yellow" => "黄色"];
 
 echo $colors["red"];
 echo $colors["blue"];
