@@ -1,13 +1,9 @@
 <?php
-function getTriangleArea($base, $height) {
-    $area = $base * $height / 2;
-    print "三角形の面積は".$area."だよ。";
+function getCubeliquid($depth,$width, $height,) {
+    $volume = $depth * $width * $height;
+    print "直方体の面積は".$volume."だよ。";
 }
 
-// 1)
-getTriangleArea(10,5);
-// 2)
-getTriangleArea(15,8);
-// 3)
-getTriangleArea(8,6);
+getCubeliquid(5,10,8);
+
 ?>
