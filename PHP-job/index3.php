@@ -1,11 +1,8 @@
 <?php
-$num = 0;
-while($num < 101) {
-    echo $num;
-    echo '<br>';
-    $num++;    
-        if($num == 101) {
-        break;
-    }
-}
+$countries = ["America", "Japan", "China", "Korea"];
+
+echo $countries[0];
+echo $countries[1];
+echo $countries[2];
+echo $countries[3];
 ?>
