@@ -7,4 +7,6 @@ echo $fruits["apple"];
 echo $fruits["orange"];
 // ぶどうを出力
 echo $fruits["grape"];
+
+var_dump($fruits);
 ?>
