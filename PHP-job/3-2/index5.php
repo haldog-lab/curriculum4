@@ -1,7 +1,9 @@
 <?php
-$fruits = ["りんご", "みかん", "もも"];
+$fruits = ["apple" => "りんご", "orange" => "みかん", "peach" => "桃"];
 
-foreach ($fruits as $value) {
-    echo $value;
-}
+
+
+echo $fruits["apple"];
+echo $fruits["orange"];
+echo $fruits["peach"];
 ?>
