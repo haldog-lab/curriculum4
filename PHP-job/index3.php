@@ -1,13 +1,8 @@
 <?php
-$fruits = ["apple" => "りんご", "orange" => "みかん", "grape" => "ぶどう"];
-$fruits[]; = "もも";
-// りんごを出力
-echo $fruits["apple"];
-// みかんを出力
-echo $fruits["orange"];
-// ぶどうを出力
-echo $fruits["grape"];
-echo $fruits["peach"];
+$colors = ["red" => "赤", "blue" => "青", "green" => "緑"];
 
+echo $colors[0];
+echo $colors[1];
+echo$colors[2];
 
 ?>
