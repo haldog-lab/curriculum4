@@ -1,8 +1,8 @@
 <?php
-$fruits = ["apple" => 3, "orange" => 3, "peach" => 5];
+$fruits = ["apple" => 100, "orange" => 50, "peach" => 600];
 
-function total($fruits,$npiece) {
-   $total = $fruits * $npiece ;
+function total($fruits,$num) {
+   $total = $fruits * $num ;
    print "りんごは $total 円です。"
    echo `<br />`;
    print "りんごは $total 円です。"
