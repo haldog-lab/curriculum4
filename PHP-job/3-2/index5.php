@@ -4,7 +4,7 @@ $num = [3,3,5];
 function $getprice ($fruits,$num){
    $getprice = $fruits * $num ;
 
-   return $getprice;
+   echo $getprice;
 }
    
 ?>
