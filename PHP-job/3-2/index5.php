@@ -7,7 +7,7 @@ function getprice($fruits,$num) {
   
 foreach (fruits as $key => $value) {
 
-    echo key."は".getPrice(value,個数[i]).“円です。”;
+    echo $key."は".getPrice($value,$num[i]).“円です。”;
     $i++;
     }
 
