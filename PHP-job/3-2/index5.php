@@ -1,21 +1,15 @@
 <?php
 $fruits = ["apple" => 100, "orange" => 50, "peach" => 600];
-
+$num = [3,3,5];
 function getprice($fruits,$num) {
    $getprice = $fruits * $num ;
-   print "りんごは .$getprice. 円です。"
-   echo `<br />`;
-   print "りんごは .$getprice. 円です。"
-   echo `<br />`;
-   print "りんごは .$getprice. 円です。"
-   echo `<br />`;
+   return $getpreice;
+  
+foreach (fruits as $key => $value) {
 
-   
-   $fruits = 0; 
-   while($fruits <= 2) {
-       echo $fruits;
-       $fruits++;
-   }
+    echo key."は".getPrice(value,個数[i]).“円です。”;
+    $i++;
+    }
 
 }
 ?>
