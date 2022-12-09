@@ -5,11 +5,6 @@ function getprice($fruits,$num) {
    $getprice = $fruits * $num ;
    return $getpreice;
   
-foreach (fruits as $key => $value) {
-
-    echo $key."は".getPrice($value,$num[i]).“円です。”;
-    $i++;
-    }
 
 }
 ?>
