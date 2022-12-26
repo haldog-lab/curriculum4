@@ -6,7 +6,6 @@ function getprice($fruits,$num){
 
    return $getprice;
 }
-
 $i = 0;
 foreach ($fruits as $key => $value) {
 
