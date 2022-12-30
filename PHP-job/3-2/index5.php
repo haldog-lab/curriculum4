@@ -11,6 +11,7 @@ foreach ($fruits as $key => $value) {
 
     echo $key."は".getprice($value,$num[$i])."円です。";
     $i++;
+    <br>
 }
 ?>
 
